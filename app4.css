@@ -1,0 +1,22 @@
+#app4{
+
+}
+#app4 .circle{
+  width: 200px;
+  height: 200px;
+  /* border: palegreen 1px solid; */
+  border-radius: 50%;
+  background-color: turquoise;
+}
+
+@keyframes change{
+  0%{
+    background-color: turquoise;
+  }
+  100%{
+    background-color: violet;
+  }
+}
+#app4 .circle.active{
+  animation:change 1s linear alternate infinite;
+}

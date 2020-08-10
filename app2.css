@@ -1,0 +1,24 @@
+#app2{
+
+}
+#app2 .tab-bar{
+  border: orangered 1px solid;
+  display: flex;
+}
+#app2 .tab-bar>li{
+width: 50%;
+border: orchid 1px solid;
+}
+
+#app2 .tab-bar>li.selected{
+  background-color: pink;
+}
+#app2 .tab-content{
+
+}
+#app2 .tab-content > li{
+  display: none;
+}
+#app2 .tab-content > li.active{
+  display: block;
+}
